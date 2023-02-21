@@ -1,0 +1,96 @@
+.App {
+    background-color: #fffdfa;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+form .login {
+    font-family: 'Amiri',serif;
+    color: #030303;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 455px;
+    background-color: #fffdfa;
+}
+
+form .email {
+    font-family: Helvetica, sans-serif;
+    color: #030303;
+    font-size: 14px;
+    margin-left: 455px;
+    text-align: center;
+}
+
+form .emailInput {
+    margin-left: 455px;
+    width: 400px;
+    height: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #fffdfa;
+    border-bottom: 1px solid #030303;
+}
+
+form .password {
+    font-family: Helvetica, sans-serif;
+    color: #030303;
+    font-size: 14px;
+    margin-left: 455px;
+    text-align: center;
+}
+
+form .passwordInput {
+    margin-left: 455px;
+    width: 400px;
+    height: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #fffdfa;
+    border-bottom: 1px solid #030303;
+}
+
+form .button {
+    background-color: #6e7142;
+    color: #fffdfa;
+    border: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 455px;
+    padding: 9px 27px;
+}
+
+form .button {
+    cursor: pointer;
+}
+
+.links .link1 {
+    margin-left: 455px;
+    color: #030303;
+    border-bottom: 1px solid #030303;
+    padding-bottom: 3px;
+}
+
+.links .link1:hover {
+    color: rgb(110 113 66);
+    cursor: pointer;
+    border-bottom: 1px solid rgb(110 113 66);
+    padding-bottom: 3px;
+}
+
+.links .link2 {
+    margin-left: 110px;
+    color: #030303;
+    border-bottom: 1px solid #030303;
+    padding-bottom: 3px;
+}
+
+.links .link2:hover {
+    color: rgb(110 113 66);
+    cursor: pointer;
+    border-bottom: 1px solid rgb(110 113 66);
+    padding-bottom: 3px;
+}

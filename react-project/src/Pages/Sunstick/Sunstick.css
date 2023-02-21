@@ -1,0 +1,209 @@
+@media only screen and (min-width: 1024px) {
+}
+
+html, body {
+    min-height: auto;
+}
+
+.slider {
+    position: relative;
+    width: 40%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    margin-left: -54%;
+    margin-top: 0%;
+    width: 10%;
+}
+
+img {
+    width: 540px;
+    height: 400px;
+    object-fit: contain;
+    margin-left: -32%;
+    margin-top: -35%;
+    overflow: hidden;
+}
+
+.leftArrow, .rightArrow {
+    position: absolute;
+    z-index: 1;
+    font-size: 20px;
+    top: 36%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.leftArrow {
+    left: 0%;
+}
+
+.rightArrow {
+    right: 30%;
+    position: absolute;
+}
+
+.titleSunstick {
+    text-align: center;
+    margin-top: -35%;
+    color: #030303;
+    font-family: 'amiri', serif;
+    font-weight: lighter;
+    margin-left: -10%;
+}
+
+.priceSunstick {
+    font-size: 13px;
+    color: #030303;
+    font-family: 'amiri', serif;
+    margin-left: -10%;
+}
+
+.quantity {
+    font-size: 13px;
+    color: #030303;
+    font-family: 'amiri', serif;
+    margin-left: -10%;
+}
+
+.cartIncrease {
+    margin-left: 42%;
+    display: inline-flex;
+    margin-top: -5%;
+}
+
+.cartIncrease .minus {
+    text-decoration: none;
+    border: none;
+    background-color: #ffffff;
+    padding-right: 20px;
+}
+
+.cartIncrease .minus:hover {
+    cursor: pointer;
+}
+
+.cartIncrease .plus {
+    text-decoration: none;
+    border: none;
+    background-color: #ffffff;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.cartIncrease .plus:hover {
+    cursor: pointer;
+}
+
+.cartIncrease .quantityNum {
+    text-align: left;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-bottom: #030303 solid 1px;
+    background-color: #fffdfa;
+}
+
+.shopButton .addToCart {
+    margin-left: 33%;
+    border: #030303 1px solid;
+    padding-left: 9.7%;
+    padding-right: 9.5%;
+    padding-top: 10px;
+    padding-bottom: 22px;
+    color: #030303;
+    margin-top: 0%;
+}
+
+.shopButton .addToCart:hover {
+    margin-left: 33%;
+    border: rgb(110 113 66) 1px solid;
+    padding-left: 9.7%;
+    padding-right: 9.5%;
+    padding-top: 10px;
+    padding-bottom: 22px;
+    color: rgb(110 113 66);
+}
+
+.shopButton .buyItNow {
+    margin-left: 33%;
+    border: #030303 1px solid;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 22px;
+    background-color: #6e7142;
+    color: #fffdfa;
+}
+
+.shopButton .buyItNow:hover {
+    margin-left: 33%;
+    border: rgb(3 3 3) 1px solid;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 22px;
+    color: #fffdfa;
+    background-color: rgb(3 3 3);
+}
+
+.aboutTheSet {
+    width: 40%;
+    margin-left: 25%;
+
+}
+
+.aboutTheSet .titleSet {
+    color: #404040;
+    font-size: 13px;
+    font-family: helvetica;
+    font-weight: bold;
+    margin-left: -43%;
+}
+
+.aboutTheSet .titleDesc {
+    text-align: left;
+    margin-left: 20%;
+    font-size: 13px;
+    font-family: helvetica;
+}
+
+.accordion {
+    width: 30%;
+    text-align: left;
+    margin-left: 67%;
+    margin-top: -34%;
+    padding-bottom: 35%;
+}
+
+.accordion .fullIngredients {
+    right: 50%;
+    font-size: 14px;
+    font-family: helvetica;
+    color: #030303;
+    font-weight: bold;
+}
+
+.accordion .fullIngredients:hover {
+    cursor: pointer;
+}
+
+.accordion .sign {
+    text-align: right;
+    margin-top: -5%;
+}
+
+.accordion .sign:hover {
+    cursor: pointer;
+}
+
+.accordion .accordionBody {
+    font-size: 13px;
+    color: #030303;
+    font-family: helvetica;
+}

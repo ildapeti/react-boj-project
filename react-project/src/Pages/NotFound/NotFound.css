@@ -1,0 +1,26 @@
+.notFound {
+    color: #030303;
+    font-family: 'Amiri', serif;
+    text-align: center;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: #030303;
+}
+
+a .link {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: #030303;
+    margin-left: 555px;
+    padding-bottom: 4px;
+    border-bottom: #030303 1px solid;
+}
+
+a .link:hover {
+    text-align: center;
+    color: #6e7142;
+    border-bottom: #6e7142 1px solid;
+}

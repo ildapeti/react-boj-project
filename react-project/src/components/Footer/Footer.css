@@ -1,0 +1,53 @@
+.boj .logo {
+    margin-left: -1100px;
+    text-decoration: none;
+    color: #6e7142;
+    font-family: monospace;
+}
+
+.boj {
+    padding-top: 30px;
+}
+
+.footer {
+    background-color: #edebdc;
+    min-width: 50%;
+    height: 60vh;
+    width: 100%;
+}
+
+.second .location {
+    text-align: start;
+    padding-left: 300px;
+    font-family: Helvetica, sans-serif;
+    color: #6e7142;
+    font-size: 13px;
+    margin-top: -20px;
+}
+
+.links ul {
+    margin-top: -195px;
+    padding-bottom: 100px;
+}
+
+.links li {
+    text-align: start;
+    list-style: none;
+}
+
+.links li:hover {
+    cursor: pointer;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #6e7142;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 800px;
+}
+
+.links li a:hover {
+    color: rgb(204 180 131);
+    cursor: pointer;
+}
